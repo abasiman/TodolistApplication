@@ -44,7 +44,7 @@ def get_db():
         db.close()
 
 
-# Create tables in the database
+#  tables in the database
 Base.metadata.create_all(bind=engine)
 
 # endpoints
